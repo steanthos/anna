@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET*/
+
+/* GLOBAL STYLES */
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', helvetica, arial, sans;
+  min-height: 100vh;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  padding-top: 10vh;
+  width: 100%;
+}
+h1 {
+  font-size: 7vw;
+  margin-top: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
+}
+a {
+  color: #0096FF;
+}
+h2 ~ p {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 1em auto 0;
+  max-width: 70%;
+  text-align: center;
+}
+h4 {
+  color: #999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+p {
+  line-height: 1.5;
+  margin: 0.75em 0;
+}
+
+/*HEADER STYLES*/
+.header {
+  background-color: #7d9d9c;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
+
+.header-logo {
+  background-color: #7d9d9c;
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  left: -5px;
+  padding-top: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+.header-logo img {
+  width: 4.5vh;
+}
+.header-logo:hover,
+.header-logo:active {
+  background-color: #594545;
+}
+.header-nav {
+  float: right;
+  padding: 5vh 20px 0 0;
+}
+.header-nav > li {
+  display: inline-block;
+  margin-left: 1em;
+}
+.header-nav > li ~ li {
+  border-left: 1px solid rgba(240, 235, 227, 0.3);
+  padding-left: 1em;
+}
+.header-nav a {
+  color: #E4DCCF;
+}
+.nav-links a {
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.nav-links a:hover,
+.nav-links a:active {
+  color: #594545;
+}
+.header-nav > li:first-child a {
+  color: #594545;
+}
+.header-nav > li:first-child a:hover {
+  color: #E4DCCF;
+}
