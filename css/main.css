@@ -145,3 +145,34 @@ p {
 .header-nav > li:first-child a:hover {
   color: #E4DCCF;
 }
+
+/*FOOTER STYLES*/
+.footer {
+  background-color: #7d9d9c;
+  text-align: center;
+  padding: 10vh 0 15vh;
+}
+.footer-logo img {
+  width: 50px;
+}
+.footer h3 {
+  color: #E4DCCF;
+  padding-top: 1.5em;
+  text-transform: uppercase;
+}
+.footer h3 span {
+  color: #594545;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 1em;
+}
+.footer-nav a {
+  color: #e4dccf;
+}
+
+   
+
+
+
+  
