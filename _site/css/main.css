@@ -50,7 +50,7 @@ a img {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Open Sans', helvetica, arial, sans;
+  font-family: 'PT Sans', helvetica, arial, sans;
   min-height: 100vh;
 }
 .content-container {
@@ -65,7 +65,7 @@ h1 {
   margin-top: 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Raleway', helvetica, sans;
+  font-family: 'Dosis', helvetica, sans;
   font-weight: 100;
 }
 a {
@@ -102,14 +102,14 @@ p {
   box-sizing: border-box;
   display: block;
   height: 10vh;
-  left: -5px;
+  left: 15px;
   padding-top: 10px;
   position: relative;
   text-align: center;
-  width: 10vh;
+  width: 15vh;
 }
 .header-logo img {
-  width: 4.5vh;
+  width: 12vh;
 }
 .header-logo:hover,
 .header-logo:active {
@@ -145,6 +145,13 @@ p {
 .header-nav > li:first-child a:hover {
   color: #E4DCCF;
 }
+.header-nav > li:last-child a {
+  margin-left: 1em;
+  padding-left: 2em;
+}
+.header-nav > li:last-child a:hover {
+  color: #594545;
+}
 
 /*FOOTER STYLES*/
 .footer {
@@ -153,7 +160,7 @@ p {
   padding: 10vh 0 15vh;
 }
 .footer-logo img {
-  width: 50px;
+  width: 80px;
 }
 .footer h3 {
   color: #E4DCCF;
@@ -170,50 +177,128 @@ p {
 .footer-nav a {
   color: #e4dccf;
 }
-
-
 /*HERO*/
 .hero {
+  background-color: #F0EBE3;
+  border-bottom: 1px dashed #594545;
   box-sizing: border-box;
-  padding: 3em, 3em, 0, 3em;
+  display: flex;
+  padding: 6em 4em 6.5em;
+}
+.hero:after {
+  border: 10px solid;
+  border-color: #594545 transparent transparent;
+  bottom: 2vh;
+  content: "";
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+  width: 0;
 }
 .hero-pic {
   border-radius: 50%;
-  float: left;
-  width: 50vh;
-  margin: 2em 8em 0;
+  margin-right: 17vh;
+  padding-top: 3vh;
+  width: 60vh;
 }
 .hero-title {
   font-size: 5vw;
-  text-align: center;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  padding-bottom: 3vh;
+  text-align: left;
 }
 .hero-box {
+  color: #594545;
   justify-content: right;
-  padding: 5em 1em 0;
+  margin-right: 4vh;
 }
-
+.hero-box span {
+  color: #576F72;
+  letter-spacing: 0.1em;
+}
+.hero-box p {
+  font-size: 1.2em;
+  line-height: 2;
+}
 /*PRESENTATION*/
 .presentation-wrapper {
+  background-color: #576F72;
   font-size: 24px;
+  display: flex;
+  justify-content: center;
   margin: auto;
-  max-width: 960px;
+/*  max-width: 1100px;*/
   overflow: hidden;
+  padding: 6em 4em 4em;
 }
 .presentation-box {
   box-sizing: border-box;
-  float: left;
+  color: #F0EBE3;
+/*  float: left;*/
   font-size: 1rem;
-  margin: 5rem 0 0;
+  margin: 4rem 0 0;
   padding: 0 3%;
-  width: 33%;
+  width: 27%;
 }
-.presentation-box h3 {
-  color: #000;
-  font-size: 1.5em;
-  margin: -40px 0 1em;
+.section-title {
+  display: block;
+  color:#fff;
+  font-size: 2.5rem;
+  margin: -40px 0 0.7em;
   text-align: center;
   text-transform: uppercase
 }
+.presentation-img {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 0 auto 0.7em;
+  max-width: 15%;
+}
+
+
+/*EDU STYLES*/
+.edu {
+  box-sizing: border-box;
+  display: flex;
+  padding: 6% 8% 4%;
+  text-align: left;
+  width: 100%;
+}
+.edu h3 {
+  color: #576F72;
+  margin: 0 0 1em;
+  width: 100%;
+  text-align: left;
+}
+.edu-img {
+  width: 50%;
+}
+
+/*CONTACT STYLES*/
+.contact {
+  font-size: 2rem;
+  text-align: right;
+  padding: 3rem 4rem 6rem;
+}
+
+
+/*MEDIA QUERY*/
+@media (max-width: 800px) {
+  .presentation-box {
+    float: none;
+    font-size: 1.3rem;
+    width: auto;
+  }
+  .hero,
+  .presentation-wrapper {
+    display: block;
+  }
+}
+
+
 
 
 
