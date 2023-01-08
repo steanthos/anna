@@ -213,7 +213,7 @@ p {
 .hero-box {
   color: #594545;
   justify-content: right;
-  margin-right: 4vh;
+  margin-right: 3.2vh;
 }
 .hero-box span {
   color: #576F72;
@@ -256,6 +256,13 @@ p {
   font-size: 2.5em;
   margin: 0 auto 0.7em;
   max-width: 15%;
+}
+.presentation-copy ul {
+  line-height: 1.5;
+  list-style-type: circle;
+}
+.presentation-copy li {
+  margin-top: 0.3em;
 }
 
 
