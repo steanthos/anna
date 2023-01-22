@@ -4,10 +4,20 @@
 <body>
 	{% include header.html %}
 
-	<div class="content-container">
+	
 		{{ content }}
-	</div>
+	
 
   {% include footer.html %}
+<script type="text/javascript">
+  const navToggle = document.getElementsByClassName('nav-toggle')[0]
+const navLinks = document.getElementsByClassName('nav-links')[0]
+
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('active')
+})
+</script>
+
+<!-- <script type="text/javascript" src="script.js"></script> -->
 </body>
 </html>

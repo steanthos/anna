@@ -1,10 +1,14 @@
-<header class="header">
-	<nav>
-		<ul class="header-nav nav-links">
+<nav class="navbar">
+	<div class="logo-toggle">
+		<a href="/" class="nav-logo">
+			<img src="images/logo.png" alt="Architetto Annamaria Rodella">
+		</a>
+	<a href=# class="nav-toggle"><i class="fa-solid fa-bars"></i>
+	</a>
+	</div>
+	<div class="nav-links">
+		<ul>
 			{% include nav-links.html %}
 		</ul>
-	</nav>
-	<a href="/" class="header-logo">
-		<img src="images/logo.png" alt="Architetto Annamaria Rodella">
-	</a>
-</header>
+	</div>
+</nav>
