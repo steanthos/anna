@@ -85,6 +85,9 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
+.wrapper {
+  max-width: 100vw;
+}
 
 /*HEADER STYLES*/
 .navbar {
@@ -178,12 +181,12 @@ p {
   justify-content: center;
   margin-top: 10vh;
   padding: 6em 3em;
-  width: 100%;
+  max-width: 100vw;
 }
 
 .hero-pic {
   display: flex;
-  flex: 6 6 40%;
+  flex: 3 3 40%;
   justify-content: center;
 }
 .hero-pic img {
@@ -221,6 +224,7 @@ p {
   justify-content: center;
   overflow: hidden;
   padding: 4em;
+  max-width: 100vw;
 }
 .presentation-box {
   box-sizing: border-box;
@@ -272,7 +276,7 @@ p {
   justify-content: center;
   padding: 4em;
   text-align: left;
-  width: 100%;
+  max-width: 100vw;
 }
 .edu-title {
   display: block;
@@ -387,6 +391,7 @@ width: 100%;
 }
 .hero-box {
   flex: 1 1 100%;
+  padding: 0;
 }
 
 }

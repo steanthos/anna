@@ -181,7 +181,7 @@ p {
   justify-content: center;
   margin-top: 10vh;
   padding: 6em 3em;
-  width: 100%;
+  max-width: 100vw;
 }
 
 .hero-pic {
@@ -224,6 +224,7 @@ p {
   justify-content: center;
   overflow: hidden;
   padding: 4em;
+  max-width: 100vw;
 }
 .presentation-box {
   box-sizing: border-box;
@@ -275,7 +276,7 @@ p {
   justify-content: center;
   padding: 4em;
   text-align: left;
-  width: 100%;
+  max-width: 100vw;
 }
 .edu-title {
   display: block;
