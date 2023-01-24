@@ -85,6 +85,9 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
+.wrapper {
+  width: 100vw;
+}
 
 /*HEADER STYLES*/
 .navbar {
@@ -183,7 +186,7 @@ p {
 
 .hero-pic {
   display: flex;
-  flex: 6 6 40%;
+  flex: 3 3 40%;
   justify-content: center;
 }
 .hero-pic img {
@@ -387,6 +390,7 @@ width: 100%;
 }
 .hero-box {
   flex: 1 1 100%;
+  padding: 0;
 }
 
 }
