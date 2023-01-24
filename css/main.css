@@ -86,7 +86,7 @@ p {
   margin: 0.75em 0;
 }
 .wrapper {
-  width: 100vw;
+  max-width: 100vw;
 }
 
 /*HEADER STYLES*/
