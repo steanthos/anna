@@ -11,7 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'PT Sans', helvetica, arial, sans;
-  max-width: 100%;
   min-height: 100vh;
   width: 100%;
 }
@@ -52,6 +51,7 @@ p {
   justify-content: space-between;
   max-width: INHERIT;
   position: fixed;
+  top: 0;
   z-index: 20;
   width: 100%;
 }
@@ -294,6 +294,7 @@ p {
   .navbar {
     align-items: flex-start;
     flex-direction: column;
+    max-width: 750px;
   }
   .nav-links ul {
     flex-direction: column;
@@ -346,10 +347,15 @@ p {
     flex: 1 1 100%;
     padding: 0;
   }
-
+  .navbar {
+    max-width: 1000px;
+  }
 }
 
 @media (max-width: 1200px) {
+  .navbar {
+    max-width: 1200px;
+  }
   .presentation-wrapper {
     display: flex;
     flex-wrap: wrap;
