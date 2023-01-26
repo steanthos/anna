@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'PT Sans', helvetica, arial, sans;
+  max-width: 100%;
   min-height: 100vh;
   width: 100%;
 }
