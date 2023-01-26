@@ -56,6 +56,7 @@ body {
   flex-direction: column;
   font-family: 'PT Sans', helvetica, arial, sans;
   min-height: 100vh;
+  max-width: 100vw;
 }
 
 h1 {
@@ -85,10 +86,10 @@ p {
   line-height: 1.5;
   margin: 0.75em 0;
 }
-.wrapper {
-  max-width: 100vw;
+/*.wrapper {
+  width: 100vw;
 }
-
+*/
 /*HEADER STYLES*/
 .navbar {
   align-items: center;
@@ -96,8 +97,8 @@ p {
   display: flex;
   justify-content: space-between;
   position: fixed;
-  width: 100%;
   z-index: 20;
+  width: 100%;
 }
 
 .nav-logo img{
@@ -146,6 +147,7 @@ p {
   background-color: #7d9d9c;
   text-align: center;
   padding: 10vh 0 15vh;
+/*  width: 100vw;*/
 }
 .footer-logo img {
   width: 80px;
@@ -181,7 +183,7 @@ p {
   justify-content: center;
   margin-top: 10vh;
   padding: 6em 3em;
-  max-width: 100vw;
+/*  width: 100vw;*/
 }
 
 .hero-pic {
@@ -224,7 +226,7 @@ p {
   justify-content: center;
   overflow: hidden;
   padding: 4em;
-  max-width: 100vw;
+/*  width: 100vw;*/
 }
 .presentation-box {
   box-sizing: border-box;
@@ -276,7 +278,7 @@ p {
   justify-content: center;
   padding: 4em;
   text-align: left;
-  max-width: 100vw;
+/*  width: 100vw;*/
 }
 .edu-title {
   display: block;
@@ -307,6 +309,7 @@ p {
   display: flex;
   font-size: 2rem;
   justify-content: right;
+  max-width: 100%;
 }
 .contact-box {
   padding: 3em 0;
