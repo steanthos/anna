@@ -323,6 +323,7 @@ p {
     display: flex;
   }
   .planimetria img {
+    display:none;
     max-width: 750px;
   }
 }
@@ -354,6 +355,7 @@ p {
     max-width: 1000px;
   }
   .planimetria img {
+    display: none;
     max-width: 1000px;
   }
 }
@@ -392,6 +394,7 @@ p {
     padding-top: 4em;
   }
   .planimetria img {
+    display: none;
     margin: 0 auto;
 max-width:1200px;  }
   .contatti {
