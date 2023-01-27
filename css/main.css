@@ -322,6 +322,9 @@ p {
   .nav-links.active {
     display: flex;
   }
+  .planimetria img {
+    max-width: 750px;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -348,6 +351,9 @@ p {
     padding: 0;
   }
   .navbar {
+    max-width: 1000px;
+  }
+  .planimetria img {
     max-width: 1000px;
   }
 }
@@ -387,8 +393,7 @@ p {
   }
   .planimetria img {
     margin: 0 auto;
-    width: 90vh;
-  }
+max-width:1200px;  }
   .contatti {
     justify-content: center;
   }
