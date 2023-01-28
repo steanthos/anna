@@ -282,17 +282,14 @@ p {
 /*MEDIA QUERY*/
 
 @media (max-width: 750px) {
-  .hero {
-    text-align: center;
-  }
+  
   .hero-title {
     font-size: 2rem;
-    font-weight: bold;
     padding-bottom: 1vh;
   }
   .hero-box p{
-line-height:1.3; 
-}
+    line-height:1.8; 
+  }
   .nav-toggle {
     display: flex;
     flex: 1 50%;
@@ -369,7 +366,7 @@ line-height:1.3;
     flex: 3 3 100%;
   }
   .hero-pic img {
-    width: 40vh;
+    width: 35vh;
   }
   .hero-title {
     padding-top: 1em;
@@ -389,6 +386,10 @@ line-height:1.3;
     display: none;
     max-width: 1000px;
   }
+  .presentation-copy ul {
+    margin-left: 1.5em;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -408,6 +409,7 @@ line-height:1.3;
     text-align: left;
   }
   .presentation-img {
+    display: inline-block;
     margin: 0;
   }
   .altre-info {
@@ -427,7 +429,7 @@ line-height:1.3;
   .planimetria img {
     display: none;
     margin: 0 auto;
-max-width:1200px;  }
+    max-width:1200px;  }
   .contatti {
     justify-content: center;
   }
@@ -438,4 +440,9 @@ max-width:1200px;  }
     padding: 0 2em;
     text-align: center;
   }
+   .section-title {
+    display: inline-block;
+    margin-right: 1em;
+  }
+ 
 }
