@@ -228,7 +228,7 @@ p {
   color: #594545;
   display: flex;
   justify-content: center;
-  padding: 4em;
+  padding: 6em 4em;
   text-align: left;
 }
 .edu-title {
@@ -336,9 +336,13 @@ p {
   .presentation-wrapper {
     padding: 3em 1.5em;
   }
+  .edu-title, 
   .section-title {
     font-size: 1.8rem;
     padding: 0;
+  }
+  .edu-title {
+    padding-bottom: 1.5rem;
   }
   .presentation-img {
     font-size: 1.8rem;
